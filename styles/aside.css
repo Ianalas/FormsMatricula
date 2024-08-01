@@ -1,0 +1,40 @@
+aside{
+  background-color: var(--surface-secondary);
+  height: 848px;
+  width: 624px;
+  color: var(--text-primary);
+  img {
+    width: 496px;
+    height: 368px;
+    margin-top: 32px;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    h1{
+      font: var(--text-h1);
+      span{
+        color: var(--brand-dark);
+      }
+    }
+    p{
+      color: var(--text-secondary);
+    }
+    a{
+      display:flex ;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+    a i{
+      display: inline-block;
+      background-image: url(../assests/icons/estrelinhas.svg);
+      height: 32px;
+      width: 32px;
+      background-size: cover;
+      margin-right: 8px;
+    }
+  }
+}

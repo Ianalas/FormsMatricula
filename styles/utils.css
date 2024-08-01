@@ -1,0 +1,10 @@
+.grade{
+  display: grid;
+  width: 1280px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+}
+
+.pad-64{
+  padding: 64px;
+}

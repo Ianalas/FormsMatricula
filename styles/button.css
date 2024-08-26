@@ -31,3 +31,10 @@
     outline: .25rem solid var(--surface-secondary);
   }
 }
+
+@media (width < 80rem) {
+  .buttons{
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}

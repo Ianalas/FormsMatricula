@@ -20,3 +20,17 @@
   grid-template-columns: repeat(4,1fr);
   gap: 16px;
 }
+
+@media (width < 80rem) {
+  .grade{
+    display: flex;
+    width: 360px;
+    flex-direction: column-reverse;
+  }
+  .pad-64{
+    padding: 1.5rem;
+  }
+  .col4{
+    grid-template-columns: repeat(2,1fr);
+  }
+}

@@ -38,3 +38,28 @@ aside{
     }
   }
 }
+
+@media (width < 80rem) {
+  aside{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    & img {
+      width: 312px;
+      height: 232px;
+      margin-top: 32px;
+    }
+    & header{
+      h1{
+        display: none;
+        span{
+          color: var(--brand-dark);
+        }
+      }
+      p{
+        display: none;
+      }
+    }
+  }
+}

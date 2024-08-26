@@ -1,5 +1,4 @@
 main{
-  overflow-y: scroll;
   height: 100vh;
   form {
     font: 400 16px/150% var(--fonte);
@@ -91,4 +90,10 @@ main{
       stroke: var(--brand-light);
     }
   }
+}
+
+@media (width >= 80em){
+ main{
+  overflow-y: scroll;
+ }
 }

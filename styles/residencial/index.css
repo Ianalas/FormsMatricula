@@ -1,0 +1,23 @@
+.residencial{
+
+}
+.cols2{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px 20px;
+
+  & div{
+    
+    input{
+      width: 100%;
+      &:disabled {
+        background-color: var(--surface-disabled);
+        font: 400 16px/150% var(--fonte);
+        color: var(--text-primary) ;
+      }
+    }
+  }
+  & div:has(input:disabled){
+    opacity: .5;
+  }
+}

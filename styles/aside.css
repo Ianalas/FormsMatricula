@@ -1,6 +1,6 @@
 aside{
   background-color: var(--surface-secondary);
-  height: 848px;
+  height: 100%;
   width: 624px;
   color: var(--text-primary);
   img {

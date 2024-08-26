@@ -1,0 +1,33 @@
+.buttons{
+  display: flex;
+  padding-top: 1rem;
+  justify-content: end;
+  gap: 1rem;
+
+  & button{
+    border: none;
+    height: 48px;
+    border-radius: 8px ;
+    padding: 12px 24px ;
+    padding: 12px 24px ;
+    font: 400 16px/150% var(--fonte);
+  }
+
+  & button:nth-child(1){
+    border: 1px solid var(--stroke-highlight);
+    color: var(--stroke-highlight);
+    background-color: var(--surface-primary);
+  }
+  & button:nth-child(2){
+    color: var(--surface-primary);
+    background-color: var(--stroke-highlight);
+  }
+  & button:nth-child(1):hover, button:nth-child(1):focus{
+    outline: .25rem solid var(--surface-secondary);
+    border: 2px solid var(--stroke-highlight);
+  }
+  & button:nth-child(2):hover, button:nth-child(2):focus{
+    background-color: var(--brand-mid);
+    outline: .25rem solid var(--surface-secondary);
+  }
+}

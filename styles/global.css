@@ -23,13 +23,6 @@
 
   --semantic-error: #DC2626;
 
-  --orange: #F9A474;
-  --yellow: #FEDF6F;
-  --green: #C7D78D;
-  --blue: #B8CEDC;
-  --violet: #c3b2e7;
-  --pink: #f682a5;
-
   --text-h1: bold 32px/120% var(--fonte) ;
   --text-h2: bold 24px/120% var(--fonte) ;
   --text-h3: bold 20px/120% var(--fonte) ;
@@ -45,8 +38,4 @@ i{
   height: 20px;
   width: 20px;
   color: #292524;
-}
-
-main{
-
 }

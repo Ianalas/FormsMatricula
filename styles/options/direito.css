@@ -1,0 +1,40 @@
+.direito{
+  display: flex;
+  position: relative;
+  gap: 12px;
+  & p{
+    font: 400 16px/150% var(--fonte);
+    color: var(--text-secondary);
+  }
+  & p i{
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--brand-dark);
+  }
+
+  div{
+    border: 1px solid var(--stroke-default);
+    border-radius: 4px;
+    min-height: 20px;
+    min-width: 20px;
+    place-self: start;
+  }
+  input{
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  &:has(:checked){
+    div{
+      border: none;
+      background-image: url(../../assests/icons/checkmark-square-01.svg);
+      background-size: cover;
+      height: 20px;
+      width: 20px;
+    }
+  }
+}

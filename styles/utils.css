@@ -8,3 +8,15 @@
 .pad-64{
   padding: 64px;
 }
+
+.gap-48{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.col4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+}
